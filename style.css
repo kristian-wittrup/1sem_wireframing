@@ -1,0 +1,452 @@
+body {
+  background-color: #cccccc;
+  margin:0;
+  font: 10px exo;
+  text-transform: capitalize;
+}
+
+header {
+  background-color: gray;
+
+}
+
+#header_controller {
+  width:810px;
+  height:150px;
+  margin: 0 auto;
+
+}
+
+#logo {
+  margin:25px 0 0 0;
+  width: 150px;
+  margin-right:10px;
+  height: 100px;
+  float:left;
+  background-color: #ffffff;
+}
+
+/*
+*  NAVIGATION CSS START
+*/
+
+#navigation {
+  min-height: 25px;
+  margin:100px 0 0 0;
+  background-color: #ffffff;
+  width:650px;
+  float: left;
+}
+
+ul li {
+  padding:0;
+  list-style: none;
+  float:left;
+  border-right: 1px solid #333333;
+}
+
+ul {
+  z-index:99;
+  margin:0;
+  padding:5px 0;
+}
+
+li a {
+  padding:0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li ul {
+  display:none;
+
+}
+
+li ul li {
+  float: none;
+  border-right:none;
+  background-color: #ffffff;
+  padding:5px 0;
+}
+
+li:hover a {
+  color:red;
+}
+
+li:hover ul {
+  display:block;
+  position: absolute;
+}
+
+li:hover li:hover {
+  background-color: #dedede;
+
+}
+
+#navigation li a {
+  color:black;
+}
+
+#navigation li a:hover {
+  color:yellow;
+}
+
+li:hover li a:hover {
+    color:lime;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+/*
+*  NAVIGATION CSS END
+*/
+
+main {
+  padding: 30px 0 0 0;
+  width:100%;
+  background-color: #dedede;
+}
+
+#top {
+  height:270px;
+  width:810px;
+  margin:0 auto;
+}
+
+
+#box1_txt, #box2_txt {
+  text-align: center;
+  padding-top:80px;
+  font-size: 44px;
+  color:#ffffff;
+}
+
+#box3_txt {}
+
+#box1_bottom, #box2_bottom {
+  background-color: #ffffff;
+  width: 100%;
+  height:10px;
+  position: absolute;
+  bottom:0;
+  font-size: 12px;
+  text-align: center;
+  padding:10px 0 14px 0;
+}
+
+#box2_bottom {
+      border-top: 1px solid #bbbbbb;
+}
+
+#box1 {
+  box-shadow: -1px 1px 1px #999999;
+  background-image: url("homer2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#box1, #box2 {
+  background-color: aqua;
+  height:250px;
+  width:190px;
+  position: relative;
+  float:left;
+}
+
+
+#box2, #box3 {
+  margin:0 0 0 20px;
+}
+
+#box3 {
+  background-color: lime;
+  height:250px;
+  width:390px;
+  position: relative;
+  float:left;
+  box-shadow: 1px 1px 1px #999999;
+}
+
+hr {
+  width:90%;
+}
+
+#box3_bottom {
+  background-color: #ffffff;
+  width: 100%;
+  height:10px;
+  position: absolute;
+  bottom:0;
+  font-size: 12px;
+  text-align: center;
+  padding:10px 0 14px 0;
+}
+
+#bottom {
+  height:250px;
+  width:810px;
+  margin:0 auto;
+  position: relative;
+}
+
+#bottom_1 {
+  position: relative;
+  float:left;
+  width: 266px;
+  height:200px;
+}
+
+#bottom_1_1 {
+  height:80px;
+  width:80px;
+  background-color: lime;
+  position: absolute;
+  top:10px;
+  left:10px;
+}
+
+
+#bottom_1_2 {
+  height:80px;
+  width:80px;
+  background-color: #449933;
+  position: absolute;
+  top:50px;
+  left:50px;
+}
+
+#bottom_1_3 {
+  height:80px;
+  width:80px;
+  background-color: aqua;
+  position: absolute;
+  top:10px;
+  left:100px;
+}
+#bottom_1_4 {
+  height:80px;
+  width:80px;
+  background-color: #7788dd;
+  position: absolute;
+  top:50px;
+  left:150px;
+}
+
+#bottom_2 {
+  position: relative;
+  float:left;
+  width: 266px;
+  height:200px;
+}
+
+#bottom_2_1 {
+  height:80px;
+  width:80px;
+  background-color: #448855;
+  position: absolute;
+  top:100px;
+  left:10px;
+  border:1px solid #333333;
+  z-index: 3;
+}
+
+#bottom_2_2 {
+  height:80px;
+  width:80px;
+  background-color: #666677;
+  position: absolute;
+  top:50px;
+  left:50px;
+  border:1px solid #333333;
+  z-index: 2;
+}
+
+#bottom_2_3 {
+  height:80px;
+  width:80px;
+  background-color: #335599;
+  position: absolute;
+  top:10px;
+  left:100px;
+  border:1px solid #333333;
+  z-index: 1;
+}
+
+#bottom_3 {
+  position: relative;
+  float:left;
+  width: 266px;
+  height:200px;
+}
+
+#bottom_3_1 {
+  height:80px;
+  width:80px;
+  background-color: #335599;
+  border:1px solid #333333;
+  margin: 5px;
+  border-radius: 12.5%;
+  float:left;
+}
+
+#bottom_3_2 {
+  height:80px;
+  width:80px;
+  background-color: #995599;
+  border:1px solid #333333;
+  margin: 5px;
+  border-radius: 25%;
+  float:left;
+}
+
+#bottom_3_3 {
+  height:80px;
+  width:80px;
+  background-color: #339999;
+  border:1px solid #333333;
+  margin: 5px;
+  border-radius: 33%;
+  float:left;
+}
+#bottom_3_4 {
+  height:80px;
+  width:80px;
+  background-color: #335511;
+  border:1px solid #333333;
+  margin: 5px;
+  border-radius: 50%;
+  float:left;
+}
+
+#bottom_extra {
+    margin:0 auto;
+    width:810px;
+    min-height:250px; /* Nyt */
+}
+
+#bottom_extra_1 {
+  background-color: #ffffff;
+  width:470px;
+  height: 150px;
+  padding:20px;
+  columns: 2;
+  float:left;  /* Nyt */
+}
+
+#bottom_extra_text h1 {
+  margin:0;
+  padding:0;
+}
+
+h1::after {
+  content: 'Second';
+  color:aqua;
+}
+/* Nyt */
+#bottom_extra_2 {
+  float:left;
+  width: 280px;
+  padding:0px 10px;
+}
+
+/*
+#woot {
+  --main-bg-color: red;
+  --main-bg2-color: green;
+}
+
+#woot {
+  background: -webkit-linear-gradient(var(--main-bg-color), var(--main-bg2-color));
+  width:10px;
+  height:10px;
+}
+*/
+footer {}
+
+table {
+  border-collapse: collapse;
+  background-color: #333333;
+  color:#ffffff;
+  width: 280px;
+}
+table tr td:first-child {
+  padding:10px;
+  width:60px;
+
+}
+
+table tr td:nth-child(2) {
+  vertical-align: top;
+  background-image: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%) ;
+
+}
+
+table tr td:nth-child(2) p {
+
+  text-align: left;
+}
+
+
+td {
+  border:1px solid #ffffff;
+  position: relative;
+}
+
+table hr {
+  background-color: #ffffff;
+  width:80%;
+  margin-top:2px;
+  margin-bottom: 2px;
+}
+
+table h5, table p {
+  margin:0;
+  text-align: center;
+}
+
+table h5 {
+  font-size: 20px;
+  line-height: 1;
+}
+
+
+p#calendar_month {
+  font-size: 13px;
+}
+
+p#calendar_time {
+  font-size:9px;
+  text-transform: lowercase;
+}
+
+p#calendar_time::before {
+  content:'kl. ';
+}
+
+p#calendar_artist {
+  margin:5px 0 0px 10px;
+  font-size: 16px;
+}
+
+p#calendar_subtitle {
+  margin:0px 0 0px 10px;
+  font-size: 10px;
+}
+
+#calendar_buy:hover {
+  background-color: #666;
+  color:#ddd;
+}
+
+#calendar_buy {
+  border:1px solid #999;
+  background-color: #ccc;
+  color:#333;
+  padding:2px 5px;
+  width:51px;
+  position: absolute;
+  bottom: 5px;
+  right:5px;
+}
